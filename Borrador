@@ -1,0 +1,168 @@
+# 📅 Cronograma del Proyecto - Sistema de Reservas Hoteleras
+
+## Diagrama de Gantt
+
+```mermaid
+gantt
+    title Sistema de Reservas Hoteleras - Cronograma Completo
+    dateFormat  YYYY-MM-DD
+    axisFormat  %d/%m
+    
+    %% Definir secciones principales
+    section 🔍 Fase 1: Análisis y Requerimientos
+    Reunión inicial stakeholders        :milestone, m1, 2025-01-15, 0d
+    Reunión con stakeholders           :done, req1, 2025-01-15, 3d
+    Análisis detallado requerimientos  :done, req2, 2025-01-18, 5d
+    Análisis mercado y competencia     :done, req3, 2025-01-20, 3d
+    Definición historias de usuario    :done, req4, 2025-01-25, 4d
+    Validación y aprobación            :done, req5, 2025-01-30, 2d
+    Requerimientos Completos           :milestone, m2, 2025-02-01, 0d
+    
+    section 🎨 Fase 2: Diseño del Sistema
+    Diseño arquitectura sistema        :active, des1, 2025-02-01, 5d
+    Diseño de base de datos           :des2, 2025-02-03, 4d
+    Wireframes y prototipos UX/UI     :des3, 2025-02-08, 6d
+    Selección de tecnologías          :des4, 2025-02-10, 2d
+    Revisión y aprobación diseños     :des5, 2025-02-16, 2d
+    Diseño Completado                 :milestone, m3, 2025-02-18, 0d
+    
+    section 💻 Fase 3: Desarrollo MVP
+    Setup proyecto y configuración    :dev1, 2025-02-18, 2d
+    
+    %% Sprint 1
+    Sistema de autenticación          :dev2, 2025-02-20, 5d
+    Gestión básica habitaciones       :dev3, 2025-02-25, 3d
+    Sprint 1 Completo                 :milestone, s1, 2025-02-28, 0d
+    
+    %% Sprint 2
+    Flujo reservas y disponibilidad   :dev4, 2025-03-01, 6d
+    Integración pasarela pagos        :dev5, 2025-03-04, 4d
+    Sprint 2 Completo                 :milestone, s2, 2025-03-08, 0d
+    
+    %% Sprint 3
+    Panel de administración           :dev6, 2025-03-08, 5d
+    Sistema de notificaciones         :dev7, 2025-03-11, 3d
+    Integración frontend-backend      :dev8, 2025-03-15, 2d
+    Sprint 3 Completo                 :milestone, s3, 2025-03-17, 0d
+    
+    %% Sprint 4 (Adicional)
+    Check-in/Check-out Online         :dev9, 2025-03-17, 4d
+    Soporte multi-idioma (Inglés)     :dev10, 2025-03-20, 3d
+    MVP Completado                    :milestone, m4, 2025-03-23, 0d
+    
+    section 🧪 Fase 4: Pruebas y QA
+    Pruebas unitarias integración     :test1, 2025-03-23, 4d
+    Pruebas de seguridad             :test2, 2025-03-25, 2d
+    Pruebas rendimiento y carga       :test3, 2025-03-27, 3d
+    Pruebas de usuario (UAT)          :test4, 2025-03-30, 3d
+    Corrección de bugs                :fix1, 2025-04-02, 2d
+    Testing Completo                  :milestone, m5, 2025-04-04, 0d
+    
+    section 🚀 Fase 5: Despliegue y Cierre
+    Despliegue en producción         :deploy1, 2025-04-04, 2d
+    Documentación final              :doc1, 2025-04-06, 2d
+    Capacitación personal hotel      :train1, 2025-04-07, 3d
+    Monitoreo post-lanzamiento       :monitor1, 2025-04-10, 7d
+    Handover y cierre formal         :close1, 2025-04-17, 1d
+    Proyecto Completado              :milestone, end, 2025-04-18, 0d
+```
+
+## 📊 Resumen de Fases
+
+| **Fase** | **Duración** | **Inicio** | **Fin** | **Estado** | **Progreso** |
+|----------|-------------|-----------|---------|------------|--------------|
+| **Fase 1:** Análisis y Requerimientos | 3 semanas | 15/01/2025 | 01/02/2025 | ✅ Completado | 100% |
+| **Fase 2:** Diseño del Sistema | 3 semanas | 01/02/2025 | 18/02/2025 | 🔄 En progreso | 60% |
+| **Fase 3:** Desarrollo MVP | 5 semanas | 18/02/2025 | 23/03/2025 | ⏳ Pendiente | 0% |
+| **Fase 4:** Pruebas y QA | 2 semanas | 23/03/2025 | 04/04/2025 | ⏳ Pendiente | 0% |
+| **Fase 5:** Despliegue y Cierre | 2 semanas | 04/04/2025 | 18/04/2025 | ⏳ Pendiente | 0% |
+| **TOTAL** | **15 semanas** | **15/01/2025** | **18/04/2025** | **🔄 Activo** | **35%** |
+
+## 🎯 Hitos Principales
+
+### 🏁 Hitos Críticos
+- **📋 Requerimientos Completos** - 01/02/2025
+- **🎨 Diseño Completado** - 18/02/2025  
+- **💻 MVP Completado** - 23/03/2025
+- **✅ Testing Completo** - 04/04/2025
+- **🚀 Proyecto Completado** - 18/04/2025
+
+### 🏃‍♂️ Sprints de Desarrollo
+- **Sprint 1:** Autenticación y Habitaciones - 28/02/2025
+- **Sprint 2:** Reservas y Pagos - 08/03/2025
+- **Sprint 3:** Admin y Notificaciones - 17/03/2025
+
+## ⚡ Ruta Crítica
+
+Las siguientes actividades son críticas y no pueden retrasarse:
+
+1. **Análisis de requerimientos** → **Diseño de arquitectura**
+2. **Diseño de BD** → **Setup del proyecto** 
+3. **Sprint 1** → **Sprint 2** → **Sprint 3**
+4. **Desarrollo completo** → **Pruebas de integración**
+5. **Testing completo** → **Despliegue en producción**
+
+## 📈 Distribución de Esfuerzo por Fase
+
+```mermaid
+pie title Distribución de Tiempo por Fase
+    "Análisis (20%)" : 20
+    "Diseño (20%)" : 20
+    "Desarrollo (40%)" : 40
+    "Pruebas (13%)" : 13
+    "Despliegue (7%)" : 7
+```
+
+## 👥 Asignación de Recursos por Semana
+
+| **Semana** | **Fechas** | **Recursos Activos** | **Actividades Principales** |
+|------------|------------|---------------------|----------------------------|
+| 1-3 | 15/01 - 01/02 | PM, BA, Analista | Análisis y requerimientos |
+| 4-6 | 01/02 - 18/02 | Arquitecto, UX Designer | Diseño de sistema |
+| 7-8 | 18/02 - 28/02 | Full-Stack Dev, DevOps | Sprint 1 - Base del sistema |
+| 9-10 | 01/03 - 08/03 | Full-Stack Dev, Backend | Sprint 2 - Reservas y pagos |
+| 11-12 | 08/03 - 17/03 | Frontend, Backend | Sprint 3 - Admin y notificaciones |
+| 13 | 17/03 - 23/03 | Full-Stack Dev | Sprint 4 - Funciones adicionales |
+| 14-15 | 23/03 - 04/04 | QA Tester, Security | Pruebas completas |
+| 16-17 | 04/04 - 18/04 | DevOps, PM | Despliegue y cierre |
+
+## ⚠️ Riesgos y Contingencias
+
+### 🔴 Riesgos Altos
+- **Integración con Stripe:** Buffer de +2 días incluido
+- **Rendimiento de BD:** Pruebas tempranas planificadas  
+- **Cambios de cliente:** Proceso formal de change control
+
+### 🟡 Riesgos Medios  
+- **Disponibilidad del equipo:** Recursos backup identificados
+- **Complejidad técnica:** Spike stories para investigación
+
+## 📝 Notas de Planificación
+
+### Supuestos del Cronograma:
+- ✅ Equipo completo disponible según calendario
+- ✅ APIs externas (Stripe, SendGrid) estables
+- ✅ Infraestructura AWS configurada previamente
+- ✅ Sin cambios mayores en requerimientos post-aprobación
+
+### Dependencias Externas:
+- 🏦 **Stripe:** Aprobación de cuenta merchant (Semana 9)
+- 📧 **SendGrid:** Configuración de dominio (Semana 11)  
+- ☁️ **AWS:** Setup de infraestructura (Semana 16)
+
+---
+
+## 📱 Visualización en GitHub Projects
+
+Para usar este cronograma en GitHub Projects:
+
+1. **Crear un nuevo Project** (tipo: Board)
+2. **Configurar columnas:**
+   - 📝 Backlog
+   - 🔄 In Progress  
+   - 👀 Review
+   - ✅ Done
+
+3. **Crear Issues** para cada tarea del cronograma
+4. **Asignar fechas de vencimiento** según las fechas del Gantt
+5. **Usar Labels** para identificar fases y tipos de trabajo
